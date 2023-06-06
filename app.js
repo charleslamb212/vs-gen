@@ -66,3 +66,8 @@ function generateShortcut() {
 
 // Add click event listener to the Generate button
 generateButton.addEventListener("click", generateShortcut);
+// add click sound to button
+generateButton.addEventListener("click", () => {  
+  const audio = document.querySelector("audio");
+  audio.play();
+} );
