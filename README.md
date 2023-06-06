@@ -1,62 +1,33 @@
 # Project Title
 
-Simple overview of use/purpose.
+VS Code Shortcut Generator
 
 ## Description
 
-An in-depth paragraph about your project and overview of use.
+The VS Code Shortcut Generator is a simple application built with JavaScript. Its main purpose is to provide developers with a convenient way to generate random keyboard shortcuts for Mac. This tool can be used on the go or during the development stage to quickly access different functionalities within Visual Studio Code.
 
 ## Getting Started
 
 ### Dependencies
 
-* Describe any prerequisites, libraries, OS version, etc., needed before installing program.
-* ex. Windows 10
+Before installing the program, ensure you have the following prerequisites:
+
+- Visual Studio Code installed on your Mac
 
 ### Installing
 
-* How/where to download your program
-* Any modifications needed to be made to files/folders
+To download the program, follow these steps:
+
+1. Visit the project repository on GitHub: [VS Code Shortcut Generator](<(https://github.com/charleslamb212/vs-gen)>)
+2. Clone the repository to your local machine or download the ZIP file.
 
 ### Executing program
 
-* How to run the program
-* Step-by-step bullets
+To run the program, follow these steps:
+
+1. Open the terminal and navigate to the project directory.
+2. Install the required dependencies by running the following command:
+
+```shell
+npm install
 ```
-code blocks for commands
-```
-
-## Help
-
-Any advise for common problems or issues.
-```
-command to run if program contains helper info
-```
-
-## Authors
-
-Contributors names and contact info
-
-ex. Dominique Pizzie  
-ex. [@DomPizzie](https://twitter.com/dompizzie)
-
-## Version History
-
-* 0.2
-    * Various bug fixes and optimizations
-    * See [commit change]() or See [release history]()
-* 0.1
-    * Initial Release
-
-## License
-
-This project is licensed under the [NAME HERE] License - see the LICENSE.md file for details
-
-## Acknowledgments
-
-Inspiration, code snippets, etc.
-* [awesome-readme](https://github.com/matiassingers/awesome-readme)
-* [PurpleBooth](https://gist.github.com/PurpleBooth/109311bb0361f32d87a2)
-* [dbader](https://github.com/dbader/readme-template)
-* [zenorocha](https://gist.github.com/zenorocha/4526327)
-* [fvcproductions](https://gist.github.com/fvcproductions/1bfc2d4aecb01a834b46)
