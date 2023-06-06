@@ -1,0 +1,71 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #609ba9;
+  }
+  
+  #centeredDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 37px;
+    background: #609ba9;
+    box-shadow: 35px 35px 70px #3a5d65, -35px -35px 70px #86d9ed;
+    padding: 20px;
+  }
+  
+  h2 {
+    margin: 0;
+    color: #ffffff;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  button {
+    color: #ffffff;
+    margin: 10px 0;
+    padding: 10px 20px;
+    background: linear-gradient(145deg, #67a6b5, #568c98);
+  box-shadow:  19px 19px 59px #325158,
+               -19px -19px 59px #8ee5fa;
+    border: none;
+    font-family: 'Orbitron', sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  button:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  
+  button:active {
+    transform: scale(0.95);
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+  }
+  
+  #shortcutWindow {
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 74px;
+    background: #609ba9;
+    box-shadow: inset 20px 20px 64px #406871,
+              inset -20px -20px 64px #80cee1;
+    
+    height: 100px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Orbitron', sans-serif;
+  }
+  
+  #shortcutDisplay {
+    margin: 0;
+    color: #ffffff;
+    font-size: 18px;
+    text-align: center;
+  }
+  
