@@ -1,4 +1,4 @@
-let shortcuts = {
+var shortcuts = {
     "Basic Editing": [
       { "key": "Cmd + X", "description": "Cut line (empty selection)" },
       { "key": "Cmd + C", "description": "Copy line (empty selection)" },
@@ -36,21 +36,21 @@ let shortcuts = {
   };
 
   // Get the necessary elements
-  let centeredDiv = document.getElementById("centeredDiv");
-  let generateButton = document.getElementById("generateButton");
+  var centeredDiv = document.getElementById("centeredDiv");
+  var generateButton = document.getElementById("generateButton");
   
 
-let shortcutDisplay = document.getElementById("shortcutDisplay");
+var shortcutDisplay = document.getElementById("shortcutDisplay");
 
   // Function to generate and display a random shortcut
   function generateShortcut() {
     // Get a random category from the JSON data
-    let categories = Object.keys(shortcuts);
-    let randomCategory = categories[Math.floor(Math.random() * categories.length)];
+    var categories = Object.keys(shortcuts);
+    var randomCategory = categories[Math.floor(Math.random() * categories.length)];
 
     // Get a random shortcut from the selected category
-    let shortcutsInCategory = shortcuts[randomCategory];
-    let randomShortcut = shortcutsInCategory[Math.floor(Math.random() * shortcutsInCategory.length)];
+    var shortcutsInCategory = shortcuts[randomCategory];
+    var randomShortcut = shortcutsInCategory[Math.floor(Math.random() * shortcutsInCategory.length)];
 
     // Display the random shortcut
     shortcutDisplay.textContent = randomShortcut.key + " - " + randomShortcut.description;
